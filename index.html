@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="img/desen.ico" />
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+</head>
+
+<body>
+    <nav>
+
+        <a href="https://www.aluracursos.com" target="_blank">
+            <img src="img/Logo.png" alt="logo alura" class="logo">
+          </a>
+        <h1 class="titulo">Encriptador de texto</h1>
+    </nav>
+
+    <div>
+        <p>&#x26A0 Solo letras minúsculas y sin acento</p>
+    </div>
+
+
+    <div class="cuadrosDeTexto">
+        <textarea name="desencriptador" class="desen" id="desen" placeholder="Escriba un mensaje para encriptar"></textarea>
+        <textarea name="encriptador" class="encrip" id="encrip" placeholder="Escriba un mensaje para desencriptar"></textarea>
+    </div>
+
+    <div class="buttons">
+        <button onclick="copiardesen()" class="copyencrip" id="copyencrip">Copiar</button>
+        <button onclick="copiarencrip()" class="copydesen" id="copydesen">Copiar</button>
+    </div>
+
+</body>
+
+<footer>
+
+    <a href="https://github.com/YozelR" target="_blank">
+        <img src="img/git.png" alt="logo gitHub" class="gitlogo">
+    </a>
+
+    <a href="https://www.linkedin.com/in/yorg020607/" target="_blank">
+        <img src="img/linkedin.png" alt="logo LinkedIn" class="linkedinlogo">
+    </a>
+
+    <h2>El contenido aquí mostrado se hizo para la acreditación del curso de programación de alura.</h2>
+    <h2>Creado por YozelR (Yair Oziel Rojas Gutiérrez).</h2>
+
+</footer>
+
+<script src="app.js"></script>
+</html>

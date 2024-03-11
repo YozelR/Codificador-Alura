@@ -1,0 +1,208 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: center;
+}
+
+nav{
+    height: 70px;
+    width: auto;
+    text-align: left;
+    border-bottom: 1px solid #bbbbbb;
+
+}
+
+p{
+    color: #969696;
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+    left: 225px;
+    top: 50px;
+}
+
+.logo{
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(72, 98, 146);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cuadrosDeTexto{
+    margin-top: 40px;
+}
+
+.encrip{
+    width: 35%;
+    height: 200px;
+    resize: unset;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    overflow: auto;
+}
+
+.desen{
+    width: 35%;
+    height: 200px;
+    resize: unset;
+    display: inline-block;
+    margin: 19px;
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    overflow: auto;
+    vertical-align: sub;
+}
+
+.copyencrip, .copydesen{
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+    width: 150px;
+    height: 40px;    
+    margin: 0 15%;
+    color: rgb(25, 103, 210);
+    background: #FFFFFF;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: none;
+
+}
+
+.copyencrip:hover{
+    color: rgb(25, 103, 210);
+    background: #BBBBBB;
+}
+
+.copydesen:hover{
+    color: rgb(25, 103, 210);
+    background: #BBBBBB;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(54, 75, 113);
+}
+
+.gitlogo{
+    width: 50px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.linkedinlogo{
+   width: 50px;
+   margin: 15px;
+}
+
+h2{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        width: 100%;
+    }
+
+    nav{
+    height: 70%px;
+    text-align: left;
+    border-bottom: 1px solid #bbbbbb;
+    }
+
+    .desen {
+    height: 150px;
+    width: 80%;
+    }
+
+    .encrip{
+    height: 150px;
+    width: 80%;
+    margin-top: 100px;
+    }
+
+    p{
+        color: #969696;
+        font-size: 13px;
+        text-align: left;
+        position: relative;
+        left: 25px;
+        top: 50px;
+    }
+
+    .copyencrip{
+        position: absolute;
+        left: 60px;
+        top: 330px;
+
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    body{
+        width: 100%;
+    }
+
+    nav{
+    height: 70%px;
+    text-align: left;
+    border-bottom: 1px solid #bbbbbb;
+    }
+
+    .desen {
+    height: 150px;
+    width: 80%;
+    }
+
+    .encrip{
+    height: 150px;
+    width: 80%;
+    margin-top: 100px;
+    }
+
+    p{
+        color: #969696;
+        font-size: 13px;
+        text-align: left;
+        position: relative;
+        left: 10%;
+        top: 50px;
+    }
+
+    .copyencrip{
+        position: absolute;
+        left: 25%;
+        top: 330px;
+    }
+
+    .copydesen{
+        position: absolute;
+        left: 25%;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(54, 75, 113);
+    }
+}
